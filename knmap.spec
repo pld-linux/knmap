@@ -1,5 +1,5 @@
-Summary:	kde frontend to nmap
-Summary(pl):	frontend kde do nmap
+Summary:	KDE frontend to nmap
+Summary(pl):	Frontend KDE do nmapa
 Name:		knmap
 Version:	2.0
 Release:	0.beta1.1
@@ -16,11 +16,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Knmap is a KDE-based interface to the 'nmap' facility available at
-http://www.insecure.org/nmap. The main Knmap window provides for the
+http://www.insecure.org/nmap/. The main Knmap window provides for the
 entry of nmap options and the display of nmap-generated output.
 
 %description -l pl
-Knmap to oparty na KDE frontend do aplikacji nmap. G³ówne okno knmap
+Knmap to oparty na KDE frontend do aplikacji nmap. G³ówne okno knmapa
 dostarcza wygodnego interfejsu do opcji nmapa oraz wy¶wietla wynik
 dzia³ania programu.
 
