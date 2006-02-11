@@ -5,7 +5,7 @@ Version:	2.1
 Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://mesh.dl.sourceforge.net/knmap/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/knmap/%{name}-%{version}.tar.bz2
 # Source0-md5:	5b03d149b5d0694eae172507469c7cf6
 URL:		http://www.sourceforge.net/projects/knmap/
 BuildRequires:	autoconf
