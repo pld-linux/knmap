@@ -1,12 +1,12 @@
 Summary:	KDE frontend to nmap
 Summary(pl):	Frontend KDE do nmapa
 Name:		knmap
-Version:	2.0
-Release:	0.beta1.1
+Version:	2.1
+Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://dl.sourceforge.net/knmap/%{name}-%{version}-beta-1.tar.bz2
-# Source0-md5:	9d7ccbde9e2a2fc818393535332809d1
+Source0:	http://mesh.dl.sourceforge.net/knmap/%{name}-%{version}.tar.bz2
+# Source0-md5:	5b03d149b5d0694eae172507469c7cf6
 URL:		http://www.sourceforge.net/projects/knmap/
 BuildRequires:	autoconf
 BuildRequires:	automake
