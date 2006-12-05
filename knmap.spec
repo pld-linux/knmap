@@ -1,3 +1,4 @@
+# TODO: it segfaults
 Summary:	KDE frontend to nmap
 Summary(pl):	Frontend KDE do nmapa
 Name:		knmap
@@ -58,6 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
+%doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/*.desktop
 %{_iconsdir}/*/*/apps/*
