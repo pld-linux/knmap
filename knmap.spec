@@ -1,6 +1,6 @@
 # TODO: it segfaults
 Summary:	KDE frontend to nmap
-Summary(pl.UTF-8):   Frontend KDE do nmapa
+Summary(pl.UTF-8):	Frontend KDE do nmapa
 Name:		knmap
 Version:	2.1
 Release:	0.1
