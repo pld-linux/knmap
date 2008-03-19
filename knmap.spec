@@ -1,13 +1,13 @@
-# TODO: it segfaults
 Summary:	KDE frontend to nmap
 Summary(pl.UTF-8):	Frontend KDE do nmapa
 Name:		knmap
 Version:	2.1
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://dl.sourceforge.net/knmap/%{name}-%{version}.tar.bz2
 # Source0-md5:	5b03d149b5d0694eae172507469c7cf6
+Patch0:		%{name}-ac_am.patch
 URL:		http://www.sourceforge.net/projects/knmap/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -27,6 +27,7 @@ działania programu.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
